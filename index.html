@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coin Game Starter</title>
+  <link rel="stylesheet" href="myJsGame.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+</head>
+
+<body>
+  <header class="main-nav">
+
+    <div class="timer element">
+      <input id="duration" value="10" />
+    </div>
+
+    <div class="element">
+      <button class="btn" id="start">play</button>
+    </div>
+
+    <div class="score element">
+      <p>Score:</p>
+    </div>
+
+  </header>
+
+  <div class="startgame">
+    <h1>To start playing press the play button!</h1>
+    <p>You can set the time individually by clicking on it</p>
+  </div>
+
+  <div class="gameover">
+    <h1>Game Over!</h1>
+    <h4>To play again press the play button!</h4>
+  </div>
+
+  <img id="player" src="images/dog.gif" alt="">
+  <img class="bone" src="images/bone.gif" alt="">
+  <img class="bone" src="images/bone.gif" alt="">
+  <img class="bone" src="images/bone.gif" alt="">
+  <img class="bone" src="images/bone.gif" alt="">
+
+  <script src="Timer.js"></script>
+  <script src="myJsGame.js"></script>
+</body>
+
+</html>
